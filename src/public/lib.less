@@ -1,0 +1,34 @@
+.flex-row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .pointer {
+    cursor: pointer;
+  }
+  //多行省略
+  .textEllipsis(@lineClamp) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: @lineClamp;
+    -webkit-box-orient: vertical;
+  }
+  //字母数字自动换行
+  .enWrap {
+    word-wrap: break-word;
+    white-space: normal;
+    word-break: break-all;
+  }
+
+  .roundImg(@diameter){
+    width: @diameter;
+    height: @diameter;
+    border-radius: 50%;
+  }
+  

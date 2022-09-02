@@ -1,4 +1,29 @@
-### 前端部分
-- 1. 框架:Nuxt3
-- 2. 语言:TypeScript
-- 3. 目录结构...
+# Nuxt 3 Minimal Starter
+
+We recommend to look at the [documentation](https://v3.nuxtjs.org).
+
+## Setup
+
+Make sure to install the dependencies
+
+```bash
+yarn install
+```
+
+## Development
+
+Start the development server on http://localhost:3000
+
+```bash
+yarn dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+yarn build
+```
+
+Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
